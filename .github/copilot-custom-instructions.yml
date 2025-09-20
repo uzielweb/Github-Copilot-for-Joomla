@@ -1,0 +1,12 @@
+instructions:
+  - 'Utilize sempre os links oficiais para downloads e releases do Joomla.'
+  - 'Siga os passos recomendados para instalar ou atualizar o Joomla, evitando sobrescrever arquivos existentes e removendo a pasta de instalação após a extração.'
+  - 'Para backup do banco de dados Joomla, utilize sempre o comando mysqldump com --default-character-set=utf8, --routines, --triggers e --single-transaction para garantir integridade e compatibilidade UTF-8 sem BOM.'
+  - 'Antes de executar o backup, sempre pergunte ao usuário quais opções deseja incluir (--add-drop-table, --insert-ignore, --replace, --create-options, --no-create-info, --no-data, --if-not-exists, --update).' 
+  - 'Salve o backup em tmp/backups e utilize o formato projeto_banco_data-e-hora no nome do arquivo, por exemplo: tmp/backups/meuprojeto_meubanco_2025-09-20_10-35.sql.'
+  - 'Recomende instalar as extensões essenciais para o projeto: PHP Intelephense, Prettier, Live Server, Tailwind CSS, Copilot, Copilot Chat, Auto Rename Tag, Path Intellisense, HTML/CSS Class Completion, Remote SSH, PowerShell.'
+  - 'Garanta que o Copilot esteja ativado para todas as linguagens relevantes, exceto YAML, plaintext e markdown.'
+  - 'Utilize as configurações avançadas do Copilot: temperature 0.1, top_p 1, indentationMode conforme linguagem.'
+  - 'Configure o PHP com o executável correto e desative sugestões básicas para evitar conflitos.'
+  - 'Implemente tasks automatizadas para iniciar o servidor local, abrir no navegador, validar HTML e otimizar imagens.'
+  - 'Ative o chat por voz no Copilot Chat para facilitar comandos e interação por voz.'
